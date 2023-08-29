@@ -351,11 +351,9 @@ const StageAdd = () => {//스테이지 개설
                                     </Row>
                                 </m.div>
                             </>}
-                        <Row style={{ position: 'fixed', bottom: '-0.1rem', left: '0', width: '100%', background: '#000' }}>
-                            <Button variant="contained" size="large" sx={{ margin: '1rem auto', width: '90%' }} disabled={isDisableButton()} onClick={() => {
+                            <Button variant="contained" size="large" sx={{ margin: 'auto auto 1rem auto', width: '100%' }} disabled={isDisableButton()} onClick={() => {
                                 onClickNextStep();
                             }}>다음</Button>
-                        </Row>
                     </>}
             </Wrappers>
             <Drawer
