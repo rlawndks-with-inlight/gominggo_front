@@ -5,6 +5,7 @@ module.exports = {
     // HOST
     HOST_API_KEY: 'http://localhost:8001',
   },
+  /*
   async rewrites() {
     return [
       {
@@ -15,5 +16,6 @@ module.exports = {
   },
   env: {
     BACK_URL: process.env.BACK_URL,
-  }
+  } 
+  */
 };
